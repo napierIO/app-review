@@ -3,3 +3,79 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Helvetica', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    height: auto;
+    width: 100vw;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media {
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+.media__img {
+    height: 160px;
+    width: 160px;
+}
+
+.media__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin-left: 2em;
+}
+
+.media__title {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: .2em;
+    color: #68c6f5;
+}
+
+.media__title span {
+    color: #ddd;
+}
+
+.media__author {
+    display: flex;
+    align-items: center;
+}
+
+.media__author--avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.media__author--name {
+    font-weight: 100;
+    font-size: 1.1em;
+    color: #ccc;
+    margin-right: .25em;
+}
+
+.media__author--title {
+    color: #ddd;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-right: 1em;
+}
+
+.media__author--date {
+    font-weight: 300;
+    font-size: 1em;
+    color: #ccc;
+}
