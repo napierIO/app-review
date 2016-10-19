@@ -11,7 +11,7 @@ body {
 .header {
     height: auto;
     width: 100vw;
-    padding: 2em;
+    padding: 6em 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
 .media {
     display: flex;
     height: 100%;
-    width: auto;
+    width: 62vw;
 }
 
 .media__img {
@@ -39,7 +39,7 @@ body {
 
 .media__title {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 3.5em;
     margin-bottom: .2em;
     color: #68c6f5;
 }
@@ -78,4 +78,61 @@ body {
     font-weight: 300;
     font-size: 1em;
     color: #ccc;
+}
+
+.section {
+    width: 63vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+.section__title {
+    font-weight: bold;
+    font-size: 1.75em;
+    color: #2196f3;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.section__description {
+    font-weight: 100;
+    font-size: 1.2em;
+    color: #bbb;
+    margin-left: 1em;
+    padding-left: .8em;
+    line-height: 2;
+    margin-bottom: 3em;
+    border-left: 2px solid #2196f3;
+}
+
+.section__subtitle {
+    color: #2196f3;
+    font-weight: 300;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding-left: .9em;
+    margin-bottom: 1em;
+}
+
+.section__subdescription {
+    margin-left: 1em;
+    padding-left: .8em;
+    line-height: 1.75;
+    font-weight: 100;
+    font-size: 1.2em;
+    color: #bbb;
+}
+
+.section--feature {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature--image {
+    height: 400px;
+    margin-left: 2.75em;
+    margin-top: -2.7em;
 }
