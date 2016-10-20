@@ -10,16 +10,15 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="media">
-            <img class="media__img" src="imgs/TI-logo.svg" alt="Tech Insider logo">
-            <div class="media__content">
-                <h1 class="media__title">TECH <span>INSIDER</span></h1>
+    <header class="header" id="header">
+        <div class="media" id="media">
+            <svg class="media__img" id="mediaImg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.21 157.24"><title>TI-logo</title><g id="Layer_2" data-name="Layer 2"><g id="profilePic"><rect width="156.21" height="157.24" fill="#2c2f34"/><polygon points="113.79 35.56 36.25 35.56 36.25 58.44 61.37 58.44 61.37 120.08 88.67 120.08 88.67 58.44 113.79 58.44 113.79 35.56" fill="#68c6f5"/><rect x="105.55" y="77.82" width="8.24" height="42.26" fill="#fffdff"/></g></g></svg>
+            <div class="media__content" id="mediaContent">
+                <h1 class="media__title" id="mediaTitle">TECH <span>INSIDER</span></h1>
                 <div class="media__author">
-                    <img class="media__author--avatar" src="imgs/avatar.jpg" alt="Alex Napier avatar photo">
-                    <h5 class="media__author--name">Alex Napier</h5>
-                    <h6 class="media__author--title">(Staff Author)</h6>
-                    <h5 class="media__author--date">Oct. 10, 2016</h5>
+                    <div class="media__author--avatar" id="authorAvatar"></div>
+                    <h5 class="media__author--name" id="authorName">Alex Napier</h5>
+                    <h6 class="media__author--title" id="authorTitle">(Staff Author)</h6>
                 </div>
             </div>
         </div>
@@ -29,7 +28,7 @@
         <h2 class="section__title">Initial Assessment:</h2>
         <p class="section__description">A largely-populated news and information app, covering topics such as science, tech, military, lifestyle, social trends and more. Simply put... it seems TI has an article for just about everything worth knowing.</p>
         <h3 class="section__subtitle">Introduction</h3>
-        <p class="section__subdescription">Tech Insider is a sub-branch of Business Insider, a well-known, respected authority covering hot-button topics across a multitude of industries. TI’s target audience spreads across a wide range of consumers from all ages, demographics, economic
+        <p class="section__subdescription--intro">Tech Insider is a sub-branch of Business Insider, a well-known, respected authority covering hot-button topics across a multitude of industries. TI’s target audience spreads across a wide range of consumers from all ages, demographics, economic
             statuses and generations.<span>It’s obvious that the focus of TI is to deliver relevant news and information, free from distracting UI or ad space. This strategy allows users to immediately speed through or lazily scroll a plethora of content.</span></p>
     </section>
 
@@ -40,7 +39,7 @@
         <div class="section--feature">
             <p class="section__subdescription">This isn’t your typical dropdown menu. This one has clean lines, good use of color. The menu also slides down to overlay the full screen, which is great for my hoof thumbs! No longer will you tap the wrong link. There’s also a Saved Articles
                 section, but we’ll get to that a little later.</p>
-            <img class="feature--image" src="imgs/menu-img.jpg" alt="full screen search field">
+            <img class="feature--image" src="imgs/menu-img.jpg" alt="full screen menu overlay">
         </div>
     </section>
 
@@ -49,10 +48,12 @@
         <div class="section--feature">
             <p class="section__subdescription">This is a simple, effective, search field. Notice, that I said “field” and not “bar”. It is a subtle, but incredibly refreshing to get away form the plain, boring search bar. A background color --beyond white-- would be nice, but we’ll let
                 it slide on the basis of functionality.</p>
-            <img class="feature--image" src="imgs/search-img.png" alt="full screen search field">
+            <img class="feature--image" src="imgs/search-img.PNG" alt="full screen search field">
         </div>
     </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
