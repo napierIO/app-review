@@ -1,5 +1,0 @@
-<svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.05 19.28">
-  <line class="menu-icon__line"id="topLine" x1="1" y1="1" x2="29.05" y2="1" fill="none" stroke="#2196f3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-  <line class="menu-icon__line"id="midLine" x1="1" y1="9.64" x2="29.05" y2="9.64" fill="none" stroke="#2196f3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-  <line class="menu-icon__line"id="bottomLine" x1="1" y1="18.28" x2="29.05" y2="18.28" fill="none" stroke="#2196f3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-</svg>
