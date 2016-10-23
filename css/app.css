@@ -162,7 +162,7 @@ body {
 }
 
 .section__description {
-    width: 75%;
+    width: 78%;
     font-weight: 100;
     font-size: 1.2em;
     color: #bbb;
@@ -193,7 +193,12 @@ body {
 }
 
 .section__subdescription--intro {
-    width: 75%;
+    width: 80%;
+}
+
+.section__subdescription span {
+    display: inline-block;
+    margin-top: 1em;
 }
 
 .section--feature {
@@ -203,13 +208,13 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 45vw;
+    width: 60vw;
 }
 
 .feature--image {
-    height: 310px;
-    /*margin-left: 2.75em;*/
-    /*margin-top: -2.7em;*/
+    height: 330px;
+    margin-right: 2.5em;
+    margin-top: -2.75em;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
