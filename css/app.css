@@ -153,7 +153,7 @@ body {
     margin-bottom: 5em;
 }
 
-.section__title {
+.section__title, .section__title--rating {
     font-weight: bold;
     font-size: 1.75em;
     color: #2196f3;
@@ -161,7 +161,11 @@ body {
     margin-bottom: 1em;
 }
 
-.section__description {
+.section__title--rating {
+    margin-top: 2em;
+}
+
+.section__description, .section__description--rating {
     width: 78%;
     font-weight: 100;
     font-size: 1.2em;
@@ -173,6 +177,21 @@ body {
     border-left: 2px solid #2196f3;
 }
 
+.section__description--rating {
+    position: relative;
+    width: 50%;
+}
+
+.section__description--rating::before {
+    content: '';
+    height: 13em;
+    width: 13em;
+    position: absolute;
+    top: -4.5em;
+    right: -17em;
+    background: url('../imgs/rating-icon.svg') top center no-repeat;
+}
+
 .section__subtitle {
     color: #2196f3;
     font-weight: 300;
@@ -182,7 +201,7 @@ body {
     margin-bottom: 1em;
 }
 
-.section__subdescription, .section__subdescription--intro {
+.section__subdescription, .section__subdescription--intro, .critique__list--item {
     width: 55%;
     margin-left: 1em;
     padding-left: .8em;
@@ -190,6 +209,12 @@ body {
     font-weight: 100;
     font-size: 1.2em;
     color: #bbb;
+}
+
+.critique__list--item {
+    padding-left: 0;
+    width: 100%;
+    margin-left: 3em;
 }
 
 .section__subdescription--intro {
@@ -201,7 +226,7 @@ body {
     margin-top: 1em;
 }
 
-.section--feature {
+.section__feature, .section__critique {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -211,7 +236,7 @@ body {
     width: 60vw;
 }
 
-.feature--image {
+.section__feature--image {
     height: 330px;
     margin-right: 2.5em;
     margin-top: -2.75em;
