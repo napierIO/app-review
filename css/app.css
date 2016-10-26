@@ -190,7 +190,7 @@ body {
     top: -4.5em;
     right: -17em;
     background: url('../imgs/rating-icon.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .section__subtitle {
