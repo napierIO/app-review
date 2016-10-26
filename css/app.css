@@ -169,12 +169,13 @@ body {
     width: 78%;
     font-weight: 100;
     font-size: 1.2em;
-    color: #bbb;
+    color: #aaa;
     margin-left: 1em;
-    padding-left: .8em;
+    padding: .5em 1em;
     line-height: 2;
     margin-bottom: 3em;
     border-left: 2px solid #2196f3;
+    background: #f9f9f9;
 }
 
 .section__description--rating {
